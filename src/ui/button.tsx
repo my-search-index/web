@@ -12,9 +12,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-slate-950 text-white hover:bg-slate-800",
-        secondary: "border border-slate-300 bg-white text-slate-900 hover:bg-slate-100",
-        ghost: "text-slate-700 hover:bg-slate-100",
+        primary: "bg-[#2563eb] text-white shadow-sm hover:bg-[#1d4ed8]",
+        secondary: "border border-[#c8d3e8] bg-white text-[#111827] hover:bg-[#f5f8ff]",
+        ghost: "text-[#334155] hover:bg-[#eef4ff]",
       },
       size: {
         default: "px-4",

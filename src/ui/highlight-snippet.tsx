@@ -26,7 +26,7 @@ export function highlightSnippet(snippet: Snippet): ReactNode[] {
 
     nodes.push(
       <mark
-        className="rounded bg-amber-200 px-0.5 text-amber-950"
+        className="rounded bg-[#fff4c4] px-0.5 text-[#111827]"
         key={`${match.Term}-${match.Start}-${index}`}
       >
         {snippet.Text.slice(match.Start, match.End)}
